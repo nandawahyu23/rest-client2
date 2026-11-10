@@ -1,0 +1,214 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f5f7fb;
+            color: #172033;
+        }
+
+        /* NAVBAR */
+        .navbar {
+            background: #101828;
+            padding: 16px 7%;
+            box-shadow: 0 4px 20px rgba(0,0,0,.08);
+        }
+
+        .navbar-brand {
+            font-size: 25px;
+            font-weight: 800;
+            color: white !important;
+        }
+
+        .navbar-brand span {
+            color: #38bdf8;
+        }
+
+        .nav-link {
+            color: #d0d5dd !important;
+            margin-left: 20px;
+            font-size: 14px;
+            transition: .3s;
+        }
+
+        .nav-link:hover {
+            color: #38bdf8 !important;
+        }
+
+        /* HERO */
+        .hero {
+            background: linear-gradient(120deg, #101828, #1d4ed8);
+            color: white;
+            padding: 85px 7%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero h1 {
+            font-size: 43px;
+            font-weight: 800;
+            line-height: 1.3;
+        }
+
+        .hero h1 span {
+            color: #38bdf8;
+        }
+
+        .hero p {
+            color: #dbeafe;
+            margin-top: 18px;
+            font-size: 15px;
+        }
+
+        .hero-label {
+            display: inline-block;
+            background: rgba(56,189,248,.15);
+            color: #7dd3fc;
+            padding: 8px 16px;
+            border-radius: 30px;
+            font-size: 12px;
+            margin-bottom: 20px;
+        }
+
+        .hero-btn {
+            display: inline-block;
+            background: #38bdf8;
+            color: #101828;
+            padding: 12px 25px;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: .3s;
+        }
+
+        .hero-btn:hover {
+            background: white;
+            color: #101828;
+            text-decoration: none;
+        }
+
+        /* CONTENT */
+        .news-section {
+            padding: 65px 7%;
+        }
+
+        .section-title {
+            font-size: 27px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .section-desc {
+            color: #667085;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        /* NEWS CARD */
+        .news-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            margin-bottom: 28px;
+            box-shadow: 0 5px 20px rgba(16,24,40,.05);
+            transition: .3s;
+            height: calc(100% - 28px);
+        }
+
+        .news-card:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 15px 35px rgba(16,24,40,.12);
+        }
+
+        .news-image {
+            width: 100%;
+            height: 210px;
+            object-fit: cover;
+            background: #e4e7ec;
+        }
+
+        .news-body {
+            padding: 22px;
+        }
+
+        .category {
+            display: inline-block;
+            background: #e0f2fe;
+            color: #0284c7;
+            padding: 5px 12px;
+            font-size: 10px;
+            font-weight: 700;
+            border-radius: 20px;
+            margin-bottom: 13px;
+        }
+
+        .news-title {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+
+        .news-description {
+            font-size: 12px;
+            color: #667085;
+            line-height: 1.8;
+            margin-bottom: 18px;
+        }
+
+        .news-author {
+            font-size: 11px;
+            color: #98a2b3;
+            margin-bottom: 15px;
+        }
+
+        .read-more {
+            display: inline-block;
+            color: #0284c7;
+            font-size: 12px;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .read-more:hover {
+            color: #075985;
+            text-decoration: none;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #101828;
+            color: #98a2b3;
+            padding: 30px 7%;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        footer span {
+            color: #38bdf8;
+            font-weight: 700;
+        }
+
+        /* RESPONSIVE */
+        @media(max-width: 768px) {
+            .hero {
+                padding: 65px 7%;
+            }
+
+            .hero h1 {
+                font-size: 30px;
+            }
+
+            .news-section {
+                padding: 45px 6%;
+            }
+
+            .navbar {
+                padding: 12px 5%;
+            }
+        }
+   
